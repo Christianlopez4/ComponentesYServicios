@@ -1,1 +1,3 @@
-<app-img></app-img>
+<input type="text" [(ngModel)]="imgParent">
+<input type="number" [(ngModel)]="imgId">
+<app-img [img]="imgParent" [account-id]="imgId"></app-img>
